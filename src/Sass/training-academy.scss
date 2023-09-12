@@ -1,0 +1,78 @@
+
+
+.page-training-academy{
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+    padding-top: 50px;
+    &__content{
+        display: flex;
+        padding: 50px 0;
+        flex-direction: column;
+        align-items: center;
+        &--paragraph{
+            width: 57%;
+            padding: 0;
+            margin: 0;
+            font-size: 17px;
+        }
+        &--paragraph:not(:last-child){
+            padding-bottom: 27px;
+        }
+    }
+    &__sectionTwo{
+        &--form{
+            display: flex;
+            flex-direction: column;
+            width: 45%;
+            padding: 50px 0;
+            margin-left:100px ;
+            gap: 20px;
+            
+            label{
+                font-weight: bold;
+                font-size: 17px;;
+            }
+            input {
+                background-color: transparent;
+                color: gray;
+                border: none;
+                border-bottom: 1px solid white;
+                padding: 16px;
+                transition: border-bottom-color 0.3s;
+                &:focus {
+                    border-bottom-color: #cf2e2e;
+                    outline: none;
+                    
+                }
+            }
+            .submit{
+                background-color:#cf2e2e ;
+                cursor: pointer;
+                border: none;
+                outline: none;
+                margin-top: 20px;
+                color: white;
+                font-weight: 400;
+                font-size: 14px;
+                text-transform: uppercase;
+                width: fit-content;
+                padding: 15px 22px;
+                letter-spacing: 2px;
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .page-training-academy__content--paragraph{
+
+        width: 90%;
+    }
+    .page-training-academy__sectionTwo--form{
+        margin: 0 auto;
+        width: 86%;
+
+    }
+}

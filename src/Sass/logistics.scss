@@ -1,0 +1,21 @@
+.page-logistics{
+    background-color: black;
+    color:white;
+    min-height: 100vh;
+    padding-top: 50px;
+    &__sectionMain{
+        .partTwo{
+            padding-right: 60px;
+            &--paragraph{
+                padding-bottom: 17px;
+                font-size: 17px;
+            }
+        }
+    }
+}
+@media screen and (min-width:768px) and (max-width:1000px) {
+    .KoH{
+
+        margin-top: 400px !important;
+    }  
+}

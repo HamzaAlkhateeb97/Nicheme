@@ -1,0 +1,15 @@
+.page-merchandising{
+    background-color: black;
+    color:white;
+    min-height: 100vh;
+    padding-top: 50px;
+    &__sectionMain{
+        .partTwo{
+            padding-right: 60px;
+            &--paragraph{
+                padding-bottom: 17px;
+                font-size: 17px;
+            }
+        }
+    }
+}

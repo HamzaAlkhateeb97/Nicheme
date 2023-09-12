@@ -1,0 +1,42 @@
+.page-digital-marketing{
+    background-color: black;
+    color:white;
+    min-height: 100vh;
+    padding-top: 50px;
+    &__sectionMain{
+        .partTwo{
+            padding-right: 60px;
+            &-title{
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                font-size: 26px;
+                font-weight: 400;
+            }
+            &--paragraph{
+                padding-bottom: 17px;
+                font-size: 17px;
+            }
+        }
+    }
+}
+.PDM{
+
+   
+    font-weight: 300;
+    width: 80%;
+    padding-bottom:27px ;
+    padding-top: 8px;
+}
+
+@media screen and (max-width:1000px) {
+    .partTwo--title{
+
+        font-size: 18px !important;
+    }
+    .PDM{
+        width: 100%;
+    }
+    .page-digital-marketing__sectionMain .partTwo-title{
+        font-size: 18px;
+    }
+}

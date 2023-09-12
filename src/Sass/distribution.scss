@@ -1,0 +1,35 @@
+.page-distribution{
+    background-color: black;
+    color:white;
+    min-height: 100vh;
+    padding-top: 50px;
+    &__sectionOne{
+        width: 70%;
+        margin: auto;
+        padding: 50px 0;
+        font-size: 17px;
+        text-align: center;
+    }
+    &__sectionMain{
+        .partTwo{
+            padding-right: 60px;
+            &-title{
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                font-size: 26px;
+                font-weight: 400;
+            }
+            &--list{
+                padding-right: 20px;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:1000px) {
+    .page-distribution__sectionOne{
+
+        font-size: 17px;
+    }
+}

@@ -1,0 +1,18 @@
+.page-retail-audits{
+    background-color: black;
+    color:white;
+    min-height: 100vh;
+    padding-top: 50px;
+    &__sectionMain{
+        padding-right: 60px;
+        .partTwo{
+            &--paragraph{
+                padding-bottom: 17px;
+                font-size: 17px;
+            }
+            &--list{
+                padding-right: 20px;
+            }
+        }
+    }
+}

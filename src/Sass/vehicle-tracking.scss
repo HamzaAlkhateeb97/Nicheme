@@ -1,0 +1,28 @@
+.page-vehicle-tracking{
+    background-color: black;
+    color:white;
+ 
+    padding-top: 50px;
+    &__sectionMain{
+        .partTwo{
+            padding-right: 60px;
+            &--link{
+
+                color: #fff;
+                cursor: pointer;
+                font-size: 17px;
+                &:hover{
+                    color: #BE1E28;
+                 
+                }
+            }
+            &--title{
+                font-size: 26px;
+            }
+            &--paragraph{
+                padding-top: 17px;
+                font-size: 17px;
+            }
+        }
+    }
+}

@@ -1,0 +1,154 @@
+.page-branding-advertising{
+    background-color: black;
+    color: white;
+    padding: 50px 90px;
+    min-height: 100vh;
+    
+    &__sectionOne{
+        &--title{
+            margin: auto;
+            width:57%;
+            font-size: 20px;
+           
+            text-align: center;
+        }
+    }
+    &__sectionTwo{
+        display: flex;
+        margin-top: 100px;
+        &--image{
+            width: 50%;
+            .card-image{
+                width:95%;
+            }
+        }
+        &--text{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0 10px;
+            .text-title{
+                font-weight: 600;
+                font-size: 26px;
+                text-transform: uppercase;
+            }
+            .text-paragraph{
+                font-size: 16px;
+            }
+        }
+
+    }
+    &__sectionThree{
+        display: flex;
+        margin-top: 100px;
+        justify-content: space-between;
+        &--card{
+            width: calc(96% /3);
+        }
+        .card-title{
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .card-paragraph{
+            // font-size: 17px;
+        }
+    }
+    &__sectionFour{
+        margin-top: 100px;
+        &--title{
+            margin: auto;
+            width: 45%;
+            font-size: 17px;
+        }
+        &--form{
+            display: flex;
+            flex-direction: column;
+            width: 45%;
+            margin: auto;
+            margin-top: 20px;
+            label{
+                font-weight: bold;
+                margin-top: 20px;
+                font-size: 17px;
+            }
+            input,textarea {
+                background-color: transparent;
+                color: gray;
+                border: none;
+                border-bottom: 1px solid white;
+                padding: 16px;
+                transition: border-bottom-color 0.3s;
+                &:focus {
+                    border-bottom-color: #cf2e2e;
+                    outline: none;
+                    
+                }
+            }
+            .submit{
+                background-color:#cf2e2e ;
+                cursor: pointer;
+                border: none;
+                outline: none;
+                margin-top: 20px;
+                color: white;
+                font-weight: 400;
+                font-size: 16px;
+                text-transform: uppercase;
+                width: fit-content;
+                padding: 15px 22px;
+                letter-spacing: 2px;
+
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:1000px) {
+    .page-branding-advertising__sectionOne--title{
+
+        width: 100%;
+    }
+    .page-branding-advertising{
+        padding: 20px;
+    }
+    .page-branding-advertising__sectionTwo{
+
+        flex-direction: column;
+    }
+    .page-branding-advertising__sectionTwo--image .card-image{
+        width: 100%;
+    }
+    .page-branding-advertising__sectionTwo--image{
+        width: 100%;
+    }
+    .page-branding-advertising__sectionTwo--text{
+        width: 100%;
+    }
+    .page-branding-advertising__sectionThree{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .page-branding-advertising__sectionThree--card{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .page-branding-advertising__sectionFour--title{
+
+        width: 100%;
+        text-align: center;
+    }
+    .page-branding-advertising__sectionFour--form{
+        width: 100%;
+        margin: 30px 0;
+    }
+    .page-branding-advertising__sectionTwo--text .text-title{
+
+        font-size: 18px;
+    }
+    
+}
